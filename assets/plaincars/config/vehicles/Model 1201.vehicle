@@ -1,0 +1,100 @@
+{ 
+    "ID": "1201", 
+    "Addon": "plaincars", 
+    "Name": "PI Model 1201", 
+    "Description": [ 
+        "A Plain Industries Original", 
+        "Logistics Branch"
+    ], 
+    "Categories": [ 
+        "truck", 
+        "lorry"
+    ], 
+    "DefaultSeats": { 
+        "driver": { 
+            "driver": true, 
+            "pos": [ -1.0, 1.0, -0.25 ]
+        }, 
+        "pass_left": { 
+            "pos": [ 0.3125, 1.0, -0.25 ]
+        }, 
+        "pass_right": { 
+            "pos": [ 1.0625, 1.0, -0.25 ]
+        }
+    }, 
+    "PartSlots": { 
+        "engine": {}, 
+        "transmission": {}
+    }, 
+    "InstalledParts": { 
+        "vehicle:engine": "gep:engine_diesel", 
+        "vehicle:transmission": "gep:transmission", 
+        "front_left": "plaincars:rim_12_6", 
+        "front_right": "plaincars:rim_12_6", 
+        "rear_left": "plaincars:rim_12_6", 
+        "rear_right": "plaincars:rim_12_6", 
+        "front_left:tire": "plaincars:tire_16_6", 
+        "front_right:tire": "plaincars:tire_16_6", 
+        "rear_left:tire": "plaincars:tire_16_6", 
+        "rear_right:tire": "plaincars:tire_16_6"
+    }, 
+    "WheelPositions": { 
+        "front_left": { 
+            "pos": [ -1.25, 0, -0.25 ], 
+            "hubsize": 0.25, 
+            "steering": true, 
+            "braking": true
+        }, 
+        "front_right": { 
+            "pos": [ 1.25, 0, -0.25 ], 
+            "mirror": true, 
+            "hubsize": 0.25, 
+            "steering": true, 
+            "braking": true, 
+        }, 
+        "rear_left": { 
+            "pos": [ -1.25, 0, 5.0 ], 
+            "hubsize": 0.25, 
+            "braking": true
+        }, 
+        "rear_right": { 
+            "pos": [ 1.25, 0, 5.0 ], 
+            "mirror": true, 
+            "hubsize": 0.25, 
+            "braking": true
+        }
+    }, 
+    "ColorChannels": { 
+        "primary": "#ffffff", 
+        "secondary": "#3021b", 
+        "interior": "#3d1f12", 
+        "seats": "#4a4659"
+    }, 
+    "Textures": [ 
+        "Default;plaincars:textures/vehicle/1201.png"
+    ], 
+    "ImpactWrench": 1.0, 
+    "SimplePhysics": { 
+        "TurnLeftModifier": 1.2, 
+        "TurnRightModifier": 1.2, 
+        "WheelStepHeight": 1.2
+    }, 
+    "Model": "plaincars:models/vehicle/1201.fmf"
+    "ModelData": { 
+        "Programs": [ 
+            "primary fvtm:rgb_channel primary", 
+            "secondary fvtm:rgb_channel secondary", 
+            "seats fvtm:rgb_channel seats", 
+            "interior fvtm:rgb_channel interior", 
+            "door_left_paint fvtm:rgb_channel primary", 
+            "door_right_paint fvtm:rgb_channel primary", 
+            "turn_left fvtm:turn_signal_left", 
+            "turn_right fvtm:turn_signal_right", 
+            "lights fvtm:lights", 
+            "lights_long fvtm:long_lights",
+            "lights_back fvtm:back_lights", 
+            "lights_brake fvtm:brake_lights", 
+            "lights_reverse fvtm:reverse_lights"
+        ]
+    }, 
+}

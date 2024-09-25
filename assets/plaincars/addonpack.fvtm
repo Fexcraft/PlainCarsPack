@@ -1,0 +1,13 @@
+{ 
+    "ID": "plaincars", 
+    "Name": "PlainCarsPack", 
+    "Version": "1.0.0", 
+    "License": "All Rights Reserved", 
+    "Dependencies": [ 
+        "gep"
+    ], 
+    "Authors": [ 
+        "Ferdinand (FEX___96)"
+    ], 
+    "#info": "File generated via FMT."
+}

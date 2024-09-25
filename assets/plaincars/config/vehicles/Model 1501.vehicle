@@ -1,0 +1,149 @@
+{ 
+    "ID": "1501", 
+    "Addon": "plaincars", 
+    "Name": "PI Model 1501", 
+    "Description": [ 
+        "A Plain Industries Original", 
+        "Passenger Transport Branch"
+    ], 
+    "Categories": [ 
+        "autobus"
+    ], 
+    "DefaultSeats": { 
+        "driver": { 
+            "pos": [ -1.0, 0.375, -0.9375 ], 
+            "driver": true
+        }, 
+        "markers_1": { 
+            "pos": [ -1.125, 0.5, 2.3125 ]
+        }, 
+        "markers_2": { 
+            "pos": [ 0.375, 0.5, 2.3125 ]
+        }, 
+        "markers_3": { 
+            "pos": [ 1.125, 0.5, 2.3125 ]
+        }, 
+        "markers_4": { 
+            "pos": [ -1.125, 0.5, 4.125 ]
+        }, 
+        "markers_5": { 
+            "pos": [ 0.375, 0.5, 4.125 ]
+        }, 
+        "markers_6": { 
+            "pos": [ 1.125, 0.5, 4.125 ]
+        }, 
+        "markers_7": { 
+            "pos": [ 1.125, 0.9375, 7.125 ]
+        }, 
+        "markers_8": { 
+            "pos": [ -1.125, 0.9375, 7.125 ]
+        }, 
+        "markers_9": { 
+            "pos": [ 0.375, 0.9375, 7.125 ]
+        }, 
+        "markers_10": { 
+            "pos": [ 1.125, 0.9375, 8.75 ]
+        }, 
+        "markers_11": { 
+            "pos": [ -1.125, 0.9375, 8.75 ]
+        }, 
+        "markers_12": { 
+            "pos": [ 0.375, 0.9375, 8.75 ]
+        }, 
+        "markers_13": { 
+            "pos": [ -0.4375, 0.9375, 8.75 ]
+        }, 
+        "markers_14": { 
+            "pos": [ -1.125, 0.5, 0.6875 ]
+        }, 
+        "markers_15": { 
+            "pos": [ 0.375, 0.5, 0.6875 ]
+        }, 
+        "markers_16": { 
+            "pos": [ 1.125, 0.5, 0.6875 ]
+        }, 
+        "markers_17": { 
+            "pos": [ -1.125, 0.5, 2.5625 ]
+        }, 
+        "markers_18": { 
+            "pos": [ 0.375, 0.5, 2.5625 ]
+        }, 
+        "markers_19": { 
+            "pos": [ 1.125, 0.5, 2.5625 ]
+        }
+    }, 
+    "PartSlots": { 
+        "engine": {}, 
+        "transmission": {}
+    }, 
+    "InstalledParts": { 
+        "vehicle:engine": "gep:engine_diesel", 
+        "vehicle:transmission": "gep:transmission", 
+        "front_left": "plaincars:rim_12_6", 
+        "front_right": "plaincars:rim_12_6", 
+        "rear_left": "plaincars:rim_12_6", 
+        "rear_right": "plaincars:rim_12_6", 
+        "front_left:tire": "plaincars:tire_16_6", 
+        "front_right:tire": "plaincars:tire_16_6", 
+        "rear_left:tire": "plaincars:tire_16_6", 
+        "rear_right:tire": "plaincars:tire_16_6"
+    }, 
+    "WheelPositions": { 
+        "front_left": { 
+            "pos": [ -1.25, 0, -0.25 ], 
+            "hubsize": 0.25, 
+            "steering": true, 
+            "braking": true
+        }, 
+        "front_right": { 
+            "pos": [ 1.25, 0, -0.25 ], 
+            "mirror": true, 
+            "hubsize": 0.25, 
+            "steering": true, 
+            "braking": true
+        }, 
+        "rear_left": { 
+            "pos": [ -1.25, 0, 7.0 ], 
+            "hubsize": 0.25, 
+            "braking": true
+        }, 
+        "rear_right": { 
+            "pos": [ 1.25, 0, 7.0 ], 
+            "mirror": true, 
+            "hubsize": 0.25, 
+            "braking": true
+        }
+    }, 
+    "ColorChannels": { 
+        "primary": "#ffffff", 
+        "secondary": "#3021b", 
+        "interior": "#3d1f12", 
+        "seats": "#4a4659"
+    }, 
+    "Textures": [ 
+        "Default;plaincars:textures/vehicle/1501.png"
+    ], 
+    "ImpactWrench": 1.0, 
+    "SimplePhysics": { 
+        "TurnLeftModifier": 1.5, 
+        "TurnRightModifier": 1.5, 
+        "WheelStepHeight": 1.2
+    }, 
+    "Model": "plaincars:models/vehicle/1501.fmf", 
+    "ModelData": { 
+        "Programs": [ 
+            "primary fvtm:rgb_channel primary", 
+            "secondary fvtm:rgb_channel secondary", 
+            "seats fvtm:rgb_channel seats", 
+            "interior fvtm:rgb_channel interior", 
+            "door_driver fvtm:rgb_channel primary", 
+            "turn_left fvtm:turn_signal_left", 
+            "turn_right fvtm:turn_signal_right", 
+            "lights fvtm:lights", 
+            "lights_long fvtm:long_lights", 
+            "lights_back fvtm:back_lights", 
+            "lights_brake fvtm:brake_lights", 
+            "lights_reverse fvtm:reverse_lights"
+        ]
+    }
+}

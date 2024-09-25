@@ -1,0 +1,96 @@
+{ 
+    "ID": "901", 
+    "Name": "PI Model 901", 
+    "Addon": "plaincars", 
+    "Description": [ 
+        "A Plain Industries Original", 
+        "Civil Transportation Branch"
+    ], 
+    "Categories": [ 
+        "car"
+    ], 
+    "Model": "plaincars:models/vehicle/901.fmf", 
+    "ModelData": { 
+        "Programs": [ 
+            "primary fvtm:rgb_channel primary", 
+            "seats fvtm:rgb_channel seats", 
+            "interior fvtm:rgb_channel interior", 
+            "door_fl fvtm:rgb_channel primary", 
+            "door_fr fvtm:rgb_channel primary", 
+            "door_rl fvtm:rgb_channel primary", 
+            "door_rr fvtm:rgb_channel primary", 
+            "lights fvtm:lights", 
+            "indicator_left fvtm:turn_signal_left", 
+            "indicator_right fvtm:turn_signal_right", 
+            "lights_back fvtm:back_lights", 
+            "lights_brake fvtm:brake_lights", 
+            "lights_reverse fvtm:reverse_lights", 
+            "lights_long fvtm:long_lights", 
+            "lights_fog fvtm:fog_lights"
+        ]
+    }, 
+    "WheelPositions": { 
+        "front_left": { 
+            "pos": [ -0.9375, 0.0, -0.125 ], 
+            "steering": true, 
+            "braking": true, 
+            "hubsize": 0.125
+        }, 
+        "front_right": { 
+            "steering": true, 
+            "braking": true, 
+            "pos": [ 0.9375, 0.0, -0.125 ], 
+            "mirror": true, 
+            "hubsize": 0.125
+        }, 
+        "rear_left": { 
+            "pos": [ -0.9375, 0.0, 3.6875 ], 
+            "braking": true, 
+            "hubsize": 0.125
+        }, 
+        "rear_right": { 
+            "pos": [ 0.9375, 0.0, 3.6875 ], 
+            "mirror": true, 
+            "braking": true, 
+            "hubsize": 0.125
+        }
+    }, 
+    "PartSlots": { 
+        "engine": {}, 
+        "transmission": {}
+    }, 
+    "InstalledParts": { 
+        "vehicle:engine": "gep:engine_petrol", 
+        "front_left": "plaincars:rim_12_4", 
+        "front_right": "plaincars:rim_12_4", 
+        "rear_left": "plaincars:rim_12_4", 
+        "rear_right": "plaincars:rim_12_4", 
+        "front_left:tire": "plaincars:tire_16_4", 
+        "front_right:tire": "plaincars:tire_16_4", 
+        "rear_left:tire": "plaincars:tire_16_4", 
+        "rear_right:tire": "plaincars:tire_16_4"
+    }, 
+    "Textures": [ 
+        "Default;plaincars:textures/vehicle/901.png"
+    ], 
+    "ColorChannels": { 
+        "primary": "#ffffff", 
+        "interior": "#632e15", 
+        "seats": "#252961"
+    }, 
+    "DefaultSeats": { 
+        "driver": { 
+            "pos": [ -0.5, 0.125, 1.5 ], 
+            "driver": true
+        }, 
+        "pass_front": { 
+            "pos": [ 0.5, 0.125, 1.5 ]
+        }, 
+        "pass_rear_left": { 
+            "pos": [ -0.5, 0.125, 2.5 ]
+        }, 
+        "pass_rear_right": { 
+            "pos": [ 0.5, 0.125, 2.5 ]
+        }
+    }
+}

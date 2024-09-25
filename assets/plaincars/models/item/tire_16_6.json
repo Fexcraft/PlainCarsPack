@@ -1,0 +1,6 @@
+{ 
+    "parent": "item/generated", 
+    "textures": { 
+        "layer0": "plaincars:item/tire_16_6"
+    }
+}
