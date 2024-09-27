@@ -1,0 +1,46 @@
+{ 
+    "ID": "1002_seats", 
+    "Name": "1002 Rear Seats", 
+    "Addon": "plaincars", 
+    "Description": [ 
+        "A Plain Industries Original"
+    ], 
+    "Textures": [ 
+        "Default;plaincars:textures/vehicle/1001.png"
+    ], 
+    "Installation": { 
+        "Removable": true, 
+        "Swappable": true
+    }, 
+    "ModelData": { 
+        "Programs": [ 
+            "seats_rear fvtm:rgb_channel seats"
+        ]
+    }, 
+    "Functions": { 
+        "fvtm:seats": { 
+            "r1l": { 
+                "pos": [ -0.75, 0.5, 2.875 ]
+            }, 
+            "r1c": { 
+                "pos": [ 0.0, 0.5, 2.875 ]
+            }, 
+            "r2l": { 
+                "pos": [ -0.75, 0.5, 4.0625 ]
+            }, 
+            "r2c": { 
+                "pos": [ 0.0, 0.5, 4.0625 ]
+            }, 
+            "r3l": { 
+                "pos": [ -0.75, 0.625, 5.5625 ]
+            }, 
+            "r3c": { 
+                "pos": [ 0.0, 0.625, 5.5625 ]
+            }, 
+            "r3r": { 
+                "pos": [ 0.75, 0.625, 5.5625 ]
+            }
+        }
+    }, 
+    "Model": "plaincars:models/part/1002_seats.fmf"
+}
