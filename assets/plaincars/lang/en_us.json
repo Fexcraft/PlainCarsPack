@@ -1,3 +1,9 @@
 { 
-    "#info": "File generated via FMT."
+    "item.plaincars.1501": "Model 1501", 
+    "item.plaincars.1201": "Model 1201", 
+    "item.plaincars.1001": "Model 1001", 
+    "item.plaincars.1002": "Model 1002", 
+    "item.plaincars.901": "Model 901", 
+    "#info": "File generated via FMT.", 
+    "item.plaincars.1002_seats": "1002 Rear Seats"
 }
