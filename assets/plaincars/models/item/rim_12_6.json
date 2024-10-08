@@ -1,6 +1,6 @@
 { 
     "parent": "item/generated", 
     "textures": { 
-        "layer0": "fvp:item/rim_12_6"
+        "layer0": "plaincars:item/rim_12_6"
     }
 }
