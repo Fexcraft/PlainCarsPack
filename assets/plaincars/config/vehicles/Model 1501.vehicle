@@ -14,58 +14,61 @@
             "pos": [ -1.0, 0.375, -0.9375 ], 
             "driver": true
         }, 
-        "markers_1": { 
+        "passenger_1": { 
             "pos": [ -1.125, 0.5, 2.3125 ]
         }, 
-        "markers_2": { 
+        "passenger_2": { 
             "pos": [ 0.375, 0.5, 2.3125 ]
         }, 
-        "markers_3": { 
+        "passenger_3": { 
             "pos": [ 1.125, 0.5, 2.3125 ]
         }, 
-        "markers_4": { 
+        "passenger_4": { 
             "pos": [ -1.125, 0.5, 4.125 ]
         }, 
-        "markers_5": { 
+        "passenger_5": { 
             "pos": [ 0.375, 0.5, 4.125 ]
         }, 
-        "markers_6": { 
+        "passenger_6": { 
             "pos": [ 1.125, 0.5, 4.125 ]
         }, 
-        "markers_7": { 
+        "passenger_7": { 
             "pos": [ 1.125, 0.9375, 7.125 ]
         }, 
-        "markers_8": { 
+        "passenger_8": { 
             "pos": [ -1.125, 0.9375, 7.125 ]
         }, 
-        "markers_9": { 
+        "passenger_9": { 
             "pos": [ 0.375, 0.9375, 7.125 ]
         }, 
-        "markers_10": { 
+        "passenger_10": { 
             "pos": [ 1.125, 0.9375, 8.75 ]
         }, 
-        "markers_11": { 
+        "passenger_11": { 
             "pos": [ -1.125, 0.9375, 8.75 ]
         }, 
-        "markers_12": { 
+        "passenger_12": { 
             "pos": [ 0.375, 0.9375, 8.75 ]
         }, 
-        "markers_13": { 
+        "passenger_13": { 
             "pos": [ -0.4375, 0.9375, 8.75 ]
         }, 
-        "markers_14": { 
+        "passenger_14": { 
             "pos": [ -1.125, 0.5, 0.6875 ]
-        },
-        "markers_16": { 
+        }, 
+        "passenger_15": { 
+            "pos": [ 0.375, 0.5, 0.6875 ]
+        }, 
+        "passenger_16": { 
             "pos": [ 1.125, 0.5, 0.6875 ]
         }, 
-        "markers_17": { 
+        "passenger_17": { 
             "pos": [ -1.125, 0.5, 2.5625 ]
         }, 
-        "markers_18": { 
+        "passenger_18": { 
             "pos": [ 0.375, 0.5, 2.5625 ]
         }, 
-        "markers_19": { 
+        "passenger_19": { 
             "pos": [ 1.125, 0.5, 2.5625 ]
         }
     }, 
