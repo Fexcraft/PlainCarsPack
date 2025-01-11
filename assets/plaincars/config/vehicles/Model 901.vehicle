@@ -92,5 +92,35 @@
         "pass_rear_right": { 
             "pos": [ 0.5, 0.125, 2.5 ]
         }
-    }
+    },
+	"Catalog": {
+		"white": {
+			"name": "Factory White",
+			"colors": {
+				"primary": "ffffff"
+			},
+			"recipe":{
+				"gep:chassis_car": 1,
+				"gep:door_set": 4,
+				"gep:chassis_components": 2,
+				"gep:lights_set": 2,
+				"gep:electric_components": 2,
+				"gep:seat_set": 4
+			}
+		},
+		"blue": {
+			"name": "Factory Olive",
+			"colors": {
+				"primary": "72910a"
+			},
+			"recipe":{
+				"gep:chassis_car": 1,
+				"gep:door_set": 4,
+				"gep:chassis_components": 2,
+				"gep:lights_set": 2,
+				"gep:electric_components": 2,
+				"gep:seat_set": 4
+			}
+		}
+	}
 }
