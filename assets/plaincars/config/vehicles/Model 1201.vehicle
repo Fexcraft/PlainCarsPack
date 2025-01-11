@@ -96,5 +96,37 @@
             "lights_brake fvtm:brake_lights", 
             "lights_reverse fvtm:reverse_lights"
         ]
-    }, 
+    },
+	"Catalog": {
+		"white": {
+			"name": "Factory White",
+			"scale": 0.8,
+			"colors": {
+				"primary": "ffffff"
+			},
+			"recipe":{
+				"gep:chassis_truck": 1,
+				"gep:door_set": 2,
+				"gep:chassis_components": 1,
+				"gep:lights_set": 2,
+				"gep:electric_components": 3,
+				"gep:seat_set": 2
+			}
+		},
+		"blue": {
+			"name": "Factory Red",
+			"scale": 0.8,
+			"colors": {
+				"primary": "751806"
+			},
+			"recipe":{
+				"gep:chassis_truck": 1,
+				"gep:door_set": 2,
+				"gep:chassis_components": 1,
+				"gep:lights_set": 2,
+				"gep:electric_components": 3,
+				"gep:seat_set": 2
+			}
+		}
+	}
 }
