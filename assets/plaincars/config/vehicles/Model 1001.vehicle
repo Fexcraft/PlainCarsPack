@@ -98,5 +98,35 @@
         "WheelStepHeight": 1.2, 
         "MaxPositiveThrottle": 1.5, 
         "MaxNegativeThrottle": 0.75
-    }
+    },
+	"Catalog": {
+		"white": {
+			"name": "Factory White",
+			"colors": {
+				"primary": "ffffff"
+			},
+			"recipe":{
+				"gep:chassis_car": 1,
+				"gep:door_set": 3,
+				"gep:chassis_components": 3,
+				"gep:lights_set": 2,
+				"gep:electric_components": 4,
+				"gep:seat_set": 2
+			}
+		},
+		"blue": {
+			"name": "Factory Blue",
+			"colors": {
+				"primary": "131b8f"
+			},
+			"recipe":{
+				"gep:chassis_car": 1,
+				"gep:door_set": 3,
+				"gep:chassis_components": 3,
+				"gep:lights_set": 2,
+				"gep:electric_components": 4,
+				"gep:seat_set": 2
+			}
+		}
+	}
 }
