@@ -6,3 +6,4 @@ item.plaincars:1002.name=Model 1002
 item.plaincars:901.name=Model 901
 #info=File generated via FMT.
 item.plaincars:1002_seats.name=1002 Rear Seats
+recipe.plaincars.general=PlainCars
