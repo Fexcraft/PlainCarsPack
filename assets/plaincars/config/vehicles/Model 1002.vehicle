@@ -102,4 +102,35 @@
         "TurnRightModifier": 1.3, 
         "WheelStepHeight": 1.2
     }
+	"Catalog": {
+		"white": {
+			"name": "Factory White",
+			"colors": {
+				"primary": "ffffff"
+			},
+			"recipe":{
+				"gep:chassis_car": 1,
+				"gep:door_set": 3,
+				"gep:chassis_components": 3,
+				"gep:lights_set": 2,
+				"gep:electric_components": 4,
+				"gep:seat_set": 2,
+				"plaincars:1002_seats": 1
+			}
+		},
+		"blue": {
+			"name": "Factory Green",
+			"colors": {
+				"primary": "206e0b"
+			},
+			"recipe":{
+				"gep:chassis_car": 1,
+				"gep:door_set": 3,
+				"gep:chassis_components": 3,
+				"gep:lights_set": 2,
+				"gep:electric_components": 4,
+				"gep:seat_set": 2
+			}
+		}
+	}
 }
