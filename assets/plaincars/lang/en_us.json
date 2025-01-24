@@ -5,6 +5,7 @@
     "item.plaincars.1002": "Model 1002", 
     "item.plaincars.901": "Model 901", 
     "#info": "File generated via FMT.", 
-    "item.plaincars.1002_seats": "1002 Rear Seats",
-    "recipe.plaincars.general": "PlainCars"
+    "item.plaincars.1002_seats": "1002 Rear Seats", 
+    "recipe.plaincars.general": "PlainCars", 
+    "item.plaincars.1201_cargo_box": "1201 Cargo Box"
 }

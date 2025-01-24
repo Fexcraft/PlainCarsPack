@@ -1,0 +1,19 @@
+{
+    "Type": "fcl:crafting",
+    "Category": "recipe.plaincars.general",
+    "Result": {
+        "id": "plaincars:1201_cargo_box",
+        "amount": 1
+    },
+    "Components":{
+        "minecraft:iron_block":{
+            "amount": 1
+        },
+        "gep:electric_components":{
+            "amount": 1
+        },
+        "gep:lights_set":{
+            "amount": 1
+        }
+    }
+}

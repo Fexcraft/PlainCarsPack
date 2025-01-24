@@ -1,0 +1,18 @@
+{ 
+    "ID": "1201_cargo_box", 
+    "Name": "1201 Cargo Box", 
+    "Addon": "plaincars", 
+    "Model": "plaincars:models/part/1201_cargo_box.fmf", 
+    "ModelData": { 
+        "Programs": [ 
+            "lights fvtm:lights"
+            "chassis fvtm:rgb_channel cargo"
+        ]
+    }, 
+    "Textures": [ 
+        "null;plaincars:textures/part/1201_cargo_box.png"
+    ], 
+    "Category": [ 
+        "cargo"
+    ]
+}

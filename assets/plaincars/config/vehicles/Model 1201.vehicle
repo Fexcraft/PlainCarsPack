@@ -24,7 +24,11 @@
     }, 
     "PartSlots": { 
         "engine": {}, 
-        "transmission": {}
+        "transmission": {}, 
+        "cargo": { 
+            "pos": [ 0, 1.0, 2.0 ], 
+            "radius": 0.5
+        }
     }, 
     "InstalledParts": { 
         "vehicle:engine": "gep:engine_diesel", 
@@ -50,7 +54,7 @@
             "mirror": true, 
             "hubsize": 0.25, 
             "steering": true, 
-            "braking": true, 
+            "braking": true
         }, 
         "rear_left": { 
             "pos": [ -1.25, 0, 5.0 ], 
@@ -68,7 +72,8 @@
         "primary": "#ffffff", 
         "secondary": "#3021b", 
         "interior": "#3d1f12", 
-        "seats": "#4a4659"
+        "seats": "#4a4659",
+        "cargo": "#211d91"
     }, 
     "Textures": [ 
         "Default;plaincars:textures/vehicle/1201.png"
@@ -79,7 +84,7 @@
         "TurnRightModifier": 1.2, 
         "WheelStepHeight": 1.2
     }, 
-    "Model": "plaincars:models/vehicle/1201.fmf"
+    "Model": "plaincars:models/vehicle/1201.fmf", 
     "ModelData": { 
         "Programs": [ 
             "primary fvtm:rgb_channel primary", 
@@ -91,42 +96,61 @@
             "turn_left fvtm:turn_signal_left", 
             "turn_right fvtm:turn_signal_right", 
             "lights fvtm:lights", 
-            "lights_long fvtm:long_lights",
+            "lights_long fvtm:long_lights", 
             "lights_back fvtm:back_lights", 
             "lights_brake fvtm:brake_lights", 
             "lights_reverse fvtm:reverse_lights"
         ]
-    },
-	"Catalog": {
-		"white": {
-			"name": "Factory White",
-			"scale": 0.8,
-			"colors": {
-				"primary": "ffffff"
-			},
-			"recipe":{
-				"gep:chassis_truck": 1,
-				"gep:door_set": 2,
-				"gep:chassis_components": 1,
-				"gep:lights_set": 2,
-				"gep:electric_components": 3,
-				"gep:seat_set": 2
-			}
-		},
-		"blue": {
-			"name": "Factory Red",
-			"scale": 0.8,
-			"colors": {
-				"primary": "751806"
-			},
-			"recipe":{
-				"gep:chassis_truck": 1,
-				"gep:door_set": 2,
-				"gep:chassis_components": 1,
-				"gep:lights_set": 2,
-				"gep:electric_components": 3,
-				"gep:seat_set": 2
-			}
-		}
-	}
+    }, 
+    "Catalog": { 
+        "white": { 
+            "name": "Factory White", 
+            "scale": 0.75,
+            "colors": { 
+                "primary": "ffffff"
+            }, 
+            "recipe":{
+                "gep:chassis_truck": 1,
+                "gep:door_set": 2,
+                "gep:chassis_components": 1,
+                "gep:lights_set": 2,
+                "gep:electric_components": 3,
+                "gep:seat_set": 2
+            }
+        },
+        "blue": { 
+            "name": "Factory Red", 
+            "scale": 0.75,
+            "colors": { 
+                "primary": "751806"
+            }, 
+            "recipe":{
+                "gep:chassis_truck": 1,
+                "gep:door_set": 2,
+                "gep:chassis_components": 1,
+                "gep:lights_set": 2,
+                "gep:electric_components": 3,
+                "gep:seat_set": 2
+            }
+        }
+        "cargo_box": {
+            "name": "Factor White - Cargo Box",
+            "scale": 0.5,
+            "colors": {
+                "primary": "ffffff"
+            },
+            "parts": {
+                "vehicle:cargo": "plaincars:1201_cargo_box"
+            },
+            "recipe":{
+                "gep:chassis_truck": 1,
+                "gep:door_set": 2,
+                "gep:chassis_components": 1,
+                "gep:lights_set": 2,
+                "gep:electric_components": 3,
+                "gep:seat_set": 2,
+                "plaincars:1201_cargo_box": 1
+            }
+        },
+    }
 }
