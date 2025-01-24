@@ -1,0 +1,13 @@
+{
+    "Type": "fcl:crafting",
+    "Category": "recipe.plaincars.general",
+    "Result": {
+        "id": "plaincars:1002_seats",
+        "amount": 1
+    },
+    "Components":{
+        "gep:seat_set":{
+            "amount": 7
+        }
+    }
+}
