@@ -95,6 +95,16 @@
             "pos": [ 0.5, 0.5, 1.5 ]
         }
     }, 
+    "Inventories":{
+        "glove_box":{
+            "type": "item",
+            "rows": 1,
+            "cols": 3,
+            "access": [ "pass_front" ],
+            "pos": [ 0.5, 0.875, 0.75 ],
+            "scale": 0.25
+        }
+    },
     "SimplePhysics": { 
         "MaxPositiveThrottle": 1.5, 
         "MaxNegativeThrottle": 0.8, 
