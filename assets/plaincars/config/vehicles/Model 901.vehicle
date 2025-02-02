@@ -93,6 +93,15 @@
             "pos": [ 0.5, 0.125, 2.5 ]
         }
     },
+    "Inventories":{
+        "glove_box":{
+            "type": "item",
+            "rows": 1,
+            "cols": 3,
+            "access": [ "pass_front" ],
+            "pos": [ 0.5, 0.625, 0.75 ]
+        }
+    },
 	"Catalog": {
 		"white": {
 			"name": "Factory White",
