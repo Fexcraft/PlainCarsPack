@@ -8,3 +8,7 @@ item.plaincars:901.name=Model 901
 item.plaincars:1002_seats.name=1002 Rear Seats
 recipe.plaincars.general=PlainCars
 item.plaincars:1201_cargo_box.name=1201 Cargo Box
+item.plaincars:tire_16_6.name=Tire 16-6
+item.plaincars:tire_16_4.name=Tire 16-4
+item.plaincars:rim_12_6.name=Rim 12-6
+item.plaincars:rim_12_4.name=Rim 12-4

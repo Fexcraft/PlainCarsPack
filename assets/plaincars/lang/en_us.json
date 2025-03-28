@@ -1,11 +1,15 @@
 { 
-    "item.plaincars.1501": "Model 1501", 
-    "item.plaincars.1201": "Model 1201", 
+    "item.plaincars.1501": "Model 1501",
+    "item.plaincars.1201": "Model 1201",
     "item.plaincars.1001": "Model 1001", 
     "item.plaincars.1002": "Model 1002", 
-    "item.plaincars.901": "Model 901", 
+    "item.plaincars.901": "Model 901",
     "#info": "File generated via FMT.", 
     "item.plaincars.1002_seats": "1002 Rear Seats", 
     "recipe.plaincars.general": "PlainCars", 
-    "item.plaincars.1201_cargo_box": "1201 Cargo Box"
+    "item.plaincars.1201_cargo_box": "1201 Cargo Box", 
+    "item.plaincars.tire_16_6": "Tire 16-6",
+    "item.plaincars.tire_16_4": "Tire 16-4",
+    "item.plaincars.rim_12_6": "Rim 12-6",
+    "item.plaincars.rim_12_4": "Rim 12-4"
 }

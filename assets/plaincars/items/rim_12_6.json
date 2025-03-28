@@ -1,0 +1,6 @@
+{ 
+    "model": { 
+        "type": "minecraft:model", 
+        "model": "plaincars:item/rim_12_6"
+    }
+}
