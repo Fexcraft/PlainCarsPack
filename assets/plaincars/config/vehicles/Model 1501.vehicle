@@ -143,7 +143,29 @@
             "lights_long fvtm:long_lights", 
             "lights_back fvtm:back_lights", 
             "lights_brake fvtm:brake_lights", 
-            "lights_reverse fvtm:reverse_lights"
+            "lights_reverse fvtm:reverse_lights",
+            {
+                "group": "body",
+                "id": "fvtm:text",
+                "pos": [ 1.1875, 2.46875, -2.25625 ],
+                "rot": [ 0, 90, 0 ],
+                "centered": false,
+                "attr": "line_name",
+                "color": "cba03",
+                "scale": 6,
+                "font": "fvp:kompakt"
+            },
+            {
+                "group": "body",
+                "id": "fvtm:text",
+                "pos": [ -1.1875, 2.46875, 9.19375 ],
+                "rot": [ 0, -90, 0 ],
+                "centered": false,
+                "attr": "line_name",
+                "color": "cba03",
+                "scale": 6,
+                "font": "fvp:kompakt"
+            }
         ]
     },
 	"Catalog": {
