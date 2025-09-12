@@ -143,61 +143,79 @@
             "lights_long fvtm:long_lights", 
             "lights_back fvtm:back_lights", 
             "lights_brake fvtm:brake_lights", 
-            "lights_reverse fvtm:reverse_lights",
-            {
-                "group": "body",
-                "id": "fvtm:text",
-                "pos": [ 1.1875, 2.46875, -2.25625 ],
-                "rot": [ 0, 90, 0 ],
-                "centered": false,
-                "attr": "line_name",
-                "color": "cba03",
-                "scale": 6,
+            "lights_reverse fvtm:reverse_lights", 
+            { 
+                "group": "body", 
+                "id": "fvtm:text", 
+                "pos": [ 1.1875, 2.46875, -2.25625 ], 
+                "rot": [ 0, 90, 0 ], 
+                "centered": false, 
+                "attr": "line_name", 
+                "color": "cba03", 
+                "scale": 6, 
                 "font": "fvp:kompakt"
-            },
-            {
-                "group": "body",
-                "id": "fvtm:text",
-                "pos": [ -1.1875, 2.46875, 9.19375 ],
-                "rot": [ 0, -90, 0 ],
-                "centered": false,
-                "attr": "line_name",
-                "color": "cba03",
-                "scale": 6,
+            }, 
+            { 
+                "group": "body", 
+                "id": "fvtm:text", 
+                "pos": [ -1.1875, 2.46875, 9.19375 ], 
+                "rot": [ 0, -90, 0 ], 
+                "centered": false, 
+                "attr": "line_name", 
+                "color": "cba03", 
+                "scale": 6, 
                 "font": "fvp:kompakt"
             }
         ]
-    },
-	"Catalog": {
-		"white": {
-			"name": "Factory White",
-			"scale": 0.5,
-			"colors": {
-				"primary": "ffffff"
-			},
-			"recipe":{
-				"gep:chassis_autobus": 1,
-				"gep:door_set": 3,
-				"gep:chassis_components": 1,
-				"gep:lights_set": 4,
-				"gep:electric_components": 6,
-				"gep:seat_set": 20
-			}
-		},
-		"blue": {
-			"name": "Factory Yellow",
-			"scale": 0.5,
-			"colors": {
-				"primary": "ada30c"
-			},
-			"recipe":{
-				"gep:chassis_autobus": 1,
-				"gep:door_set": 3,
-				"gep:chassis_components": 1,
-				"gep:lights_set": 4,
-				"gep:electric_components": 6,
-				"gep:seat_set": 20
-			}
-		}
-	}
+    }, 
+    "Catalog": { 
+        "white": { 
+            "name": "Factory White", 
+            "scale": 0.5, 
+            "colors": { 
+                "primary": "ffffff"
+            }, 
+            "recipe": [ 
+                { 
+                    "gep:chassis_autobus": 1, 
+                    "gep:door_set": 3, 
+                    "gep:chassis_components": 1, 
+                    "gep:lights_set": 4, 
+                    "gep:electric_components": 6, 
+                    "gep:seat_set": 20
+                }
+            ]
+        }, 
+        "blue": { 
+            "name": "Factory Yellow", 
+            "scale": 0.5, 
+            "colors": { 
+                "primary": "ada30c"
+            }, 
+            "recipe": [ 
+                { 
+                    "gep:chassis_autobus": 1, 
+                    "gep:door_set": 3, 
+                    "gep:chassis_components": 1, 
+                    "gep:lights_set": 4, 
+                    "gep:electric_components": 6, 
+                    "gep:seat_set": 20
+                }
+            ]
+        }
+    }, 
+    "LiftingPoints": { 
+        "front_left": { 
+            "pos": [ -1.5625, -0.1875, 1.0 ]
+        }, 
+        "front_right": { 
+            "pos": [ 1.5625, -0.1875, 1.0 ]
+        }, 
+        "rear_left": { 
+            "pos": [ -1.5625, -0.1875, 5.0 ]
+        }, 
+        "rear_right": { 
+            "pos": [ 1.5625, -0.1875, 5.0 ]
+        }
+    }
 }
