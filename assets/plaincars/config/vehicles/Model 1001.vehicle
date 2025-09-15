@@ -91,52 +91,72 @@
         "pass_front": { 
             "pos": [ 0.5, 0.5, 1.5 ]
         }
-    },
-    "Inventories":{
-        "glove_box":{
-            "type": "item",
-            "rows": 1,
-            "cols": 3,
-            "access": [ "pass_front" ],
-            "pos": [ 0.5, 0.875, 0.75 ],
+    }, 
+    "Inventories": { 
+        "glove_box": { 
+            "type": "item", 
+            "rows": 1, 
+            "cols": 3, 
+            "access": [ 
+                "pass_front"
+            ], 
+            "pos": [ 0.5, 0.875, 0.75 ], 
             "scale": 0.25
         }
-    },
+    }, 
     "SimplePhysics": { 
         "TurnLeftModifier": 1.25, 
         "TurnRightModifier": 1.25, 
         "WheelStepHeight": 1.2, 
         "MaxPositiveThrottle": 1.5, 
         "MaxNegativeThrottle": 0.75
-    },
-	"Catalog": {
-		"white": {
-			"name": "Factory White",
-			"colors": {
-				"primary": "ffffff"
-			},
-			"recipe":{
-				"gep:chassis_car": 1,
-				"gep:door_set": 3,
-				"gep:chassis_components": 3,
-				"gep:lights_set": 2,
-				"gep:electric_components": 4,
-				"gep:seat_set": 2
-			}
-		},
-		"blue": {
-			"name": "Factory Blue",
-			"colors": {
-				"primary": "131b8f"
-			},
-			"recipe":{
-				"gep:chassis_car": 1,
-				"gep:door_set": 3,
-				"gep:chassis_components": 3,
-				"gep:lights_set": 2,
-				"gep:electric_components": 4,
-				"gep:seat_set": 2
-			}
-		}
-	}
+    }, 
+    "Catalog": { 
+        "white": { 
+            "name": "Factory White", 
+            "colors": { 
+                "primary": "ffffff"
+            }, 
+            "recipe": [ 
+                { 
+                    "gep:chassis_car": 1, 
+                    "gep:door_set": 3, 
+                    "gep:chassis_components": 3, 
+                    "gep:lights_set": 2, 
+                    "gep:electric_components": 4, 
+                    "gep:seat_set": 2
+                }
+            ]
+        }, 
+        "blue": { 
+            "name": "Factory Blue", 
+            "colors": { 
+                "primary": "131b8f"
+            }, 
+            "recipe": [ 
+                { 
+                    "gep:chassis_car": 1, 
+                    "gep:door_set": 3, 
+                    "gep:chassis_components": 3, 
+                    "gep:lights_set": 2, 
+                    "gep:electric_components": 4, 
+                    "gep:seat_set": 2
+                }
+            ]
+        }
+    }, 
+    "LiftingPoints": { 
+        "front_left": { 
+            "pos": [ -1.1875, -0.25, 0.625 ]
+        }, 
+        "front_right": { 
+            "pos": [ 1.1875, -0.25, 0.625 ]
+        }, 
+        "rear_left": { 
+            "pos": [ -1.1875, -0.25, 4.1875 ]
+        }, 
+        "rear_right": { 
+            "pos": [ 1.1875, -0.25, 4.1875 ]
+        }
+    }
 }
