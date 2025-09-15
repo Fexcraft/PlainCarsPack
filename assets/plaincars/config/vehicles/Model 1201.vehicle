@@ -72,7 +72,7 @@
         "primary": "#ffffff", 
         "secondary": "#3021b", 
         "interior": "#3d1f12", 
-        "seats": "#4a4659",
+        "seats": "#4a4659", 
         "cargo": "#211d91"
     }, 
     "Textures": [ 
@@ -105,52 +105,72 @@
     "Catalog": { 
         "white": { 
             "name": "Factory White", 
-            "scale": 0.75,
+            "scale": 0.75, 
             "colors": { 
                 "primary": "ffffff"
             }, 
-            "recipe":{
-                "gep:chassis_truck": 1,
-                "gep:door_set": 2,
-                "gep:chassis_components": 1,
-                "gep:lights_set": 2,
-                "gep:electric_components": 3,
-                "gep:seat_set": 2
-            }
-        },
+            "recipe": [ 
+                { 
+                    "gep:chassis_truck": 1, 
+                    "gep:door_set": 2, 
+                    "gep:chassis_components": 1, 
+                    "gep:lights_set": 2, 
+                    "gep:electric_components": 3, 
+                    "gep:seat_set": 2
+                }
+            ]
+        }, 
         "blue": { 
             "name": "Factory Red", 
-            "scale": 0.75,
+            "scale": 0.75, 
             "colors": { 
                 "primary": "751806"
             }, 
-            "recipe":{
-                "gep:chassis_truck": 1,
-                "gep:door_set": 2,
-                "gep:chassis_components": 1,
-                "gep:lights_set": 2,
-                "gep:electric_components": 3,
-                "gep:seat_set": 2
-            }
-        }
-        "cargo_box": {
-            "name": "Factor White - Cargo Box",
-            "scale": 0.5,
-            "colors": {
+            "recipe": [ 
+                { 
+                    "gep:chassis_truck": 1, 
+                    "gep:door_set": 2, 
+                    "gep:chassis_components": 1, 
+                    "gep:lights_set": 2, 
+                    "gep:electric_components": 3, 
+                    "gep:seat_set": 2
+                }
+            ]
+        }, 
+        "cargo_box": { 
+            "name": "Factor White - Cargo Box", 
+            "scale": 0.5, 
+            "colors": { 
                 "primary": "ffffff"
-            },
-            "parts": {
+            }, 
+            "parts": { 
                 "vehicle:cargo": "plaincars:1201_cargo_box"
-            },
-            "recipe":{
-                "gep:chassis_truck": 1,
-                "gep:door_set": 2,
-                "gep:chassis_components": 1,
-                "gep:lights_set": 2,
-                "gep:electric_components": 3,
-                "gep:seat_set": 2,
-                "plaincars:1201_cargo_box": 1
-            }
-        },
+            }, 
+            "recipe": [ 
+                { 
+                    "gep:chassis_truck": 1, 
+                    "gep:door_set": 2, 
+                    "gep:chassis_components": 1, 
+                    "gep:lights_set": 2, 
+                    "gep:electric_components": 3, 
+                    "gep:seat_set": 2, 
+                    "plaincars:1201_cargo_box": 1
+                }
+            ]
+        }
+    }, 
+    "LiftingPoints": { 
+        "front_left": { 
+            "pos": [ -0.5625, 0.0, -1.25 ]
+        }, 
+        "front_right": { 
+            "pos": [ 0.5625, 0.0, -1.25 ]
+        }, 
+        "rear_left": { 
+            "pos": [ -0.5625, 0.0, 4.5 ]
+        }, 
+        "rear_right": { 
+            "pos": [ 0.5625, 0.0, 4.5 ]
+        }
     }
 }
