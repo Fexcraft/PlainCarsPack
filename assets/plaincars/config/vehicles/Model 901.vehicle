@@ -121,7 +121,7 @@
                 }
             ]
         }, 
-        "blue": { 
+        "olive": {
             "name": "Factory Olive", 
             "colors": { 
                 "primary": "72910a"
