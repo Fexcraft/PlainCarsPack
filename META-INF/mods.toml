@@ -10,5 +10,10 @@ displayURL="https://fexcraft.net/wiki/mod/fvtm"
 credits="Generated using FMT" #optional
 authors="FEX___96"
 displayTest="IGNORE_ALL_VERSION"
-
 description='''A pack for FVTM'''
+[[dependencies.fvtm]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.12.2],[1.20.1]"
+ordering="NONE"
+side="BOTH"
