@@ -14,9 +14,9 @@
     "entrypoints": {}, 
     "mixins": [], 
     "depends": { 
-        "fabricloader": "*", 
-        "minecraft": "*", 
-        "java": "*", 
+        "fabricloader": ">=0.18.5", 
+        "minecraft": ">=26.1", 
+        "java": ">=25", 
         "fabric-api": "*", 
         "fvtm": "*", 
         "fcl": "*"
