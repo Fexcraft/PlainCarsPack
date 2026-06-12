@@ -109,16 +109,14 @@
             "colors": { 
                 "primary": "ffffff"
             }, 
-            "recipe": [ 
-                { 
-                    "gep:chassis_truck": 1, 
-                    "gep:door_set": 2, 
-                    "gep:chassis_components": 1, 
-                    "gep:lights_set": 2, 
-                    "gep:electric_components": 3, 
-                    "gep:seat_set": 2
-                }
-            ]
+            "recipe": {
+                "gep:chassis_truck": 1,
+                "gep:door_set": 2,
+                "gep:chassis_components": 1,
+                "gep:lights_set": 2,
+                "gep:electric_components": 3,
+                "gep:seat_set": 2
+            }
         }, 
         "blue": { 
             "name": "Factory Red", 
@@ -126,16 +124,14 @@
             "colors": { 
                 "primary": "751806"
             }, 
-            "recipe": [ 
-                { 
-                    "gep:chassis_truck": 1, 
-                    "gep:door_set": 2, 
-                    "gep:chassis_components": 1, 
-                    "gep:lights_set": 2, 
-                    "gep:electric_components": 3, 
-                    "gep:seat_set": 2
-                }
-            ]
+            "recipe": {
+                "gep:chassis_truck": 1,
+                "gep:door_set": 2,
+                "gep:chassis_components": 1,
+                "gep:lights_set": 2,
+                "gep:electric_components": 3,
+                "gep:seat_set": 2
+            }
         }, 
         "cargo_box": { 
             "name": "Factor White - Cargo Box", 
@@ -146,17 +142,15 @@
             "parts": { 
                 "vehicle:cargo": "plaincars:1201_cargo_box"
             }, 
-            "recipe": [ 
-                { 
-                    "gep:chassis_truck": 1, 
-                    "gep:door_set": 2, 
-                    "gep:chassis_components": 1, 
-                    "gep:lights_set": 2, 
-                    "gep:electric_components": 3, 
-                    "gep:seat_set": 2, 
-                    "plaincars:1201_cargo_box": 1
-                }
-            ]
+            "recipe": {
+                "gep:chassis_truck": 1,
+                "gep:door_set": 2,
+                "gep:chassis_components": 1,
+                "gep:lights_set": 2,
+                "gep:electric_components": 3,
+                "gep:seat_set": 2,
+                "plaincars:1201_cargo_box": 1
+            }
         }
     }, 
     "LiftingPoints": { 
