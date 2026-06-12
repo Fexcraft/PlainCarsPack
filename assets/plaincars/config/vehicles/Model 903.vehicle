@@ -102,16 +102,14 @@
             "colors": {
                 "primary": "ffffff"
             },
-            "recipe": [
-                {
-                    "gep:chassis_car": 1,
-                    "gep:door_set": 3,
-                    "gep:chassis_components": 5,
-                    "gep:lights_set": 2,
-                    "gep:electric_components": 2,
-                    "gep:seat_set": 2
-                }
-            ]
+            "recipe": {
+                "gep:chassis_car": 1,
+                "gep:door_set": 3,
+                "gep:chassis_components": 5,
+                "gep:lights_set": 2,
+                "gep:electric_components": 2,
+                "gep:seat_set": 2
+            }
         },
         "amber": {
             "name": "Factory Amber",
@@ -120,16 +118,14 @@
                 "seats": "8bb731"
                 "interior": "303a1a"
             },
-            "recipe": [
-                {
-                    "gep:chassis_car": 1,
-                    "gep:door_set": 3,
-                    "gep:chassis_components": 5,
-                    "gep:lights_set": 2,
-                    "gep:electric_components": 2,
-                    "gep:seat_set": 2
-                }
-            ]
+            "recipe": {
+                "gep:chassis_car": 1,
+                "gep:door_set": 3,
+                "gep:chassis_components": 5,
+                "gep:lights_set": 2,
+                "gep:electric_components": 2,
+                "gep:seat_set": 2
+            }
         }
     },
     "LiftingPoints": {
